@@ -7,7 +7,8 @@ import random
 class ReservoirSample(object):
 
     def __init__(self, size=0):
-        self._size = size
+        self.size = size
+        self._size = self.size
         self._counter = 0
         self._sample = []
 
